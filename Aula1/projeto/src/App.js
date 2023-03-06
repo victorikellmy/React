@@ -34,7 +34,7 @@ class App extends Component{
 
         <h2> <button onClick={this.diminuir}>-</button> 
         {this.state.contador} 
-        <button onClick={this.aumentar}>-</button> </h2> 
+        <button onClick={this.aumentar}>+</button> </h2> 
 
       </div>
     );
